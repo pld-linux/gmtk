@@ -12,7 +12,7 @@ License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	http://gmtk.googlecode.com/files/%{name}-%{version}.tar.gz
 # Source0-md5:	e06e9ca8d61d74910343bb3ef4348f7f
-URL:		http://gmtk.googlecode.com
+URL:		http://kdekorte.googlepages.com/gmtk
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	gettext
