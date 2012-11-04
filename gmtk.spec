@@ -6,12 +6,12 @@
 
 Summary:	Gnome-mplayer toolkit
 Name:		gmtk
-Version:	1.0.5
+Version:	1.0.7
 Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	http://gmtk.googlecode.com/files/%{name}-%{version}.tar.gz
-# Source0-md5:	e06e9ca8d61d74910343bb3ef4348f7f
+# Source0-md5:	919ea155b755a33ab052dacbbc6e7f03
 URL:		http://kdekorte.googlepages.com/gmtk
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -71,9 +71,9 @@ rm -rf $RPM_BUILD_ROOT
 %files -f %{name}.lang
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libgmlib.so.*.*.*
-%ghost %{_libdir}/libgmlib.so.0
+%ghost %{_libdir}/libgmlib.so.1
 %attr(755,root,root) %{_libdir}/libgmtk.so.*.*.*
-%ghost %{_libdir}/libgmtk.so.0
+%ghost %{_libdir}/libgmtk.so.1
 
 %files devel
 %defattr(644,root,root,755)
