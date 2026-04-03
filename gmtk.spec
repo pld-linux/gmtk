@@ -7,7 +7,7 @@
 Summary:	Gnome-mplayer toolkit
 Name:		gmtk
 Version:	1.0.8
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	http://gmtk.googlecode.com/files/%{name}-%{version}.tar.gz
